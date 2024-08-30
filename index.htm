@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            flex-direction: column;
+            width: 100%;
+        }
+        .block1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 50%;
+        }
+        input{
+
+            width: 30%;
+            border-radius: 10px;
+            border: 1px solid orange;
+            outline: none;
+        }
+        table, th, td {
+            border: 1px solid;
+        }
+        table{
+            text-align: center;
+            margin: 30px;
+            width: 30%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="main">
+        <div class="block1">
+            <h3>İşçi siyahı</h3>
+            <input type="text" id="a">
+        </div>
+        
+        <table id="ntc">
+            <thead>
+                <tr>
+                    <th>Ad</th>
+                    <th>Cins</th>
+                    <th>Maaş</th>
+                </tr>
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+    </div>
+    <script src="app1.js"></script>
+</body>
+</html>
